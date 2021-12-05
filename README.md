@@ -1,6 +1,9 @@
-# Basic Sample Hardhat Project
+# Part of the Wave app by BuildSpace
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+run on rinkeby
+
+npx hardhat run scripts/run.js
+npx hardhat run scripts/deploy.js --network rinkeby
 
 Try running some of the following tasks:
 
